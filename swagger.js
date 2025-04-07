@@ -23,7 +23,7 @@ const swaggerSpec = swaggerJSDoc(options);
 
 const swaggerDocs = (app) => {
   app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
-  console.log("🚀 Swagger Docs available at http://localhost:5000/api-docs");
+  console.log("🚀 Swagger Docs available at https://backendfreelancer-u9ba.onrender.com/");
 };
 
 module.exports = swaggerDocs;
