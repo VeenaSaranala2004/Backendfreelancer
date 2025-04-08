@@ -6,7 +6,7 @@ const sequelize = require("./config/database");
 const userRoutes = require("./routes/userRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const projectRoutes = require("./routes/projectRoutes");
-const projectRoutes = require("./routes/chatRoutes");
+const chatRoutes = require("./routes/chatRoutes");
 const swaggerDocs = require("./swagger");
 
 
