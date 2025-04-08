@@ -6,7 +6,7 @@ const sequelize = require("./config/database");
 const userRoutes = require("./routes/userRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const projectRoutes = require("./routes/projectRoutes");
-const chatRoutes = require("./routes/chatRoutes");
+const messageRoutes = require("./routes/messageRoutes");
 const swaggerDocs = require("./swagger");
 
 
@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use("/api", userRoutes);
 app.use("/api", profileRoutes);
 app.use("/api", projectRoutes);
-app.use("/api", chatRoutes);
+app.use("/api", messageRoutes);
 swaggerDocs(app);
 
 const PORT = process.env.PORT || 5000;
