@@ -16,7 +16,7 @@ const options = {
       },
     ],
   },
-  apis: ["./routes/userRoutes.js", "./routes/profileRoutes.js", "./routes/projectRoutes.js"], // Include profileRoutes.js
+  apis: ["./routes/userRoutes.js", "./routes/profileRoutes.js", "./routes/projectRoutes.js", "./routes/chatRoutes.js"], // Include profileRoutes.js
 };
 
 const swaggerSpec = swaggerJSDoc(options);
